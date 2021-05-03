@@ -1,0 +1,28 @@
+  237  mkdir git-majonez
+  238  git init
+  239  touch main.cpp
+  240  gedit main.cpp &
+  241  git add main.cpp 
+  242  git commit -m "Initial commit"
+  243  gedit main.cpp &
+  244  git add main.cpp 
+  245  git commit -m "Farewell changed"
+  246  git remote add origin https://github.com/MikeX-s/git-majonez.git
+  247  git push -u origin master
+  248  git checkout -b cs
+  249  git log
+  250  git reset HEAD^ --hard
+  251  git log
+  252  gedit main.cpp 
+  253  git add main.cpp 
+  254  git commit -m "Greetings"
+  255  git push origin cs
+  256  git checkout master 
+  257  git merge cs
+  258  git status
+  259  gedit main.cpp &
+  260  git add main.cpp 
+  261  git commit 
+  262  git log
+  263  touch history.txt
+  264  history > history.txt 
